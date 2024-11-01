@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Employment Application Form</title>
+</head>
+<body class="p-4">
+
+    <div class="container border p-4">
+        <!-- Form Title -->
+        <h2 class="text-center mb-4">EMPLOYMENT / JOB APPLICATION</h2>
+
+        <!-- Personal Information Section -->
+        <h5 class="bg-light p-2">PERSONAL INFORMATION</h5>
+        <form>
+
+            <div class="row mb-3">
+                <label for="fullname" class="col-sm-1 col-form-label">Full Name:</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="fullname">
+                    <div class="d-flex justify-content-between display">
+                        <small>First</small>
+                        <small>Middle</small>
+                        <small>Last</small>
+                    </div>
+                </div>
+                <label for="date" class="col-sm-1 col-form-label">Date:</label>
+                <div class="col-sm-5">
+                    <input type="date" class="form-control border-bottom border-0 rounded-0 " id="date">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="address" class="col-sm-1 col-form-label">Address:</label>
+                <div class="col-sm-11">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="address" placeholder="">
+                    <div class="d-flex justify-content-between display">
+                        <small>Street Address</small>
+                        <small>Apt/Suite</small>
+                        <small></small>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="email" class="col-sm-2 col-form-label">E-mail:</label>
+                <div class="col-sm-4">
+                    <input type="email" class="form-control border-bottom border-0 rounded-0" id="email">
+                </div>
+                <label for="phone" class="col-sm-1 col-form-label">Phone:</label>
+                <div class="col-sm-3">
+                    <input type="tel" class="form-control border-bottom border-0 rounded-0" id="phone">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="ssn" class="col-sm-2 col-form-label">Social Security Number (SSN):</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="ssn">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="dateAvailable" class="col-sm-2 col-form-label">Date Available:</label>
+                <div class="col-sm-3">
+                    <input type="date" class="form-control border-bottom border-0 rounded-0" id="dateAvailable">
+                </div>
+                <label for="desiredPay" class="col-sm-2 col-form-label">Desired Pay:</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="desiredPay">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="positionApplied" class="col-sm-2 col-form-label">Position Applied For:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="positionApplied">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">Employment Desired:</label>
+                <div class="col-sm-10">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="employmentDesired" id="fullTime" value="Full-Time">
+                        <label class="form-check-label" for="fullTime">Full-Time</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="employmentDesired" id="partTime" value="Part-Time">
+                        <label class="form-check-label" for="partTime">Part-Time</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="employmentDesired" id="seasonal" value="Seasonal">
+                        <label class="form-check-label" for="seasonal">Seasonal</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Employment Eligibility Section -->
+            <h5 class="bg-light p-2">EMPLOYMENT ELIGIBILITY</h5>
+
+            <div class="row mb-3">
+                <label class="col-sm-8 col-form-label">Are you legally eligible to work in the U.S.?</label>
+                <div class="col-sm-4">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="workEligibility" id="yesEligibility" value="Yes">
+                        <label class="form-check-label" for="yesEligibility">Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="workEligibility" id="noEligibility" value="No">
+                        <label class="form-check-label" for="noEligibility">No</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional questions like felony and previous employment go here similarly -->
+
+            <!-- Education Section -->
+            <h5 class="bg-light p-2 border text-center">EDUCATION</h5>
+
+            <div class="row mb-3">
+                <label for="highSchool" class="col-sm-2 col-form-label">High School:</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="highSchool">
+                </div>
+                <label for="highSchoolCity" class="col-sm-1 col-form-label">City/State:</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="highSchoolCity">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="highSchool" class="col-sm-1 col-form-label">Form:</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="highSchool">
+                </div>
+                <label for="highSchoolCity" class="col-sm-1 col-form-label">To:</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="highSchoolCity">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="college" class="col-sm-1 col-form-label">College:</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="college">
+                </div>
+                <label for="collegeCity" class="col-sm-1 col-form-label">City/State:</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="collegeCity">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="highSchool" class="col-sm-1 col-form-label">Form:</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="highSchool">
+                </div>
+                <label for="highSchoolCity" class="col-sm-1 col-form-label">To:</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="highSchoolCity">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="otherEducation" class="col-sm-2 col-form-label">Other Education:</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="otherEducation">
+                </div>
+                <label for="otherCity" class="col-sm-2 col-form-label">City/State:</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="otherCity">
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <button type="submit" class="btn btn-primary">Submit Application</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

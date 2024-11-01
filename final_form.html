@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Employment Application Form</title>
+</head>
+<body class="p-4">
+
+    <div class="container border p-4">
+        <!-- Form Title -->
+        <h2 class="text-center mb-4">EMPLOYMENT / JOB APPLICATION</h2>
+
+        <!-- Personal Information Section -->
+        <h5 class="bg-ligh p-2  border text-center" >PERSONAL INFORMATION</h5>
+        <form>
+
+            <div class="row mb-2">
+                <label for="fullname" class="col-sm-2 col-form-label">Full Name:</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0  " id="fullname">
+                    <div class="d-flex justify-content-between display">
+                        <small>First</small>
+                        <small>Middle</small>
+                        <small>Last</small>
+                    </div>
+                </div>
+                
+                <label for="date" class="col-sm-2 col-form-label">Date:</label>
+                <div class="col-sm-4">
+                    <input type="date" class="form-control  border-bottom border-0 rounded-0 " id="date">
+                  
+                </div>
+                
+            </div>
+
+            <div class="row mb-3">
+                <label for="address" class="col-sm-1 col-form-label">Address:</label>
+                <div class="col-sm-11">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="address" placeholder="">
+                    <div class="d-flex justify-content-between display">
+                        <small>street address</small>
+                        <small class="align-items-middle">apt/suite</small>
+                        <small></small>
+                    </div>
+                    <div row class="mb-3">
+                        <div col--md-11>
+                            <input type="text" class="form-control border-bottom border-0 rounded-0" id="address" placeholder="">
+                            <div class="d-flex justify-content-between display">
+                                <small>city</small>
+                                <small>state</small>
+                                <small>zip cord</small>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="email" class="col-sm-2 col-form-label">E-mail:</label>
+                <div class="col-sm-6">
+                    <input type="email" class="form-control  border-bottom border-0 rounded-0" id="address" id="email ">
+                </div>
+                <label for="phone" class="col-sm-1 col-form-label">Phone:</label>
+                <div class="col-sm-3">
+                    <input type="tel" class="form-control  border-bottom border-0 rounded-0" id="phone">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="ssn" class="col-sm-5 col-form-label">Social Security Number (SSN):</label>
+                <div class="col-sm-6">
+                    <div class="d-flex">
+                        <input type="text" class="form-control border-bottom border-0 rounded-0 me-1" id="ssn1" placeholder=""><span class="sign">-</span>
+                        <input type="text" class="form-control border-bottom border-0 rounded-0 me-1" id="ssn2" placeholder=""><span class="sign">-</span>
+                        <input type="text" class="form-control border-bottom border-0 rounded-0" id="ssn3" placeholder=""> 
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="row mb-3">
+                <label for="dateAvailable" class="col-sm-3 col-form-label">Date Available:</label>
+                <div class="col-sm-3">
+                    <input type="date" class="form-control border-bottom border-0 rounded-0" id="dateAvailable">
+                </div>
+                <label for="desiredPay" class="col-sm-2 col-form-label ">Desired Pay:</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control  border-bottom border-0 rounded-0" id="desiredPay ">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="positionApplied" class="col-sm-4 col-form-label">Position Applied For:</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="positionApplied">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Employment Desired:</label>
+                <div class="col-sm-8">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="employmentDesired" id="fullTime" value="Full-Time">
+                        <label class="form-check-label" for="fullTime">Full-Time</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="employmentDesired" id="partTime" value="Part-Time">
+                        <label class="form-check-label" for="partTime">Part-Time</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="employmentDesired" id="seasonal" value="Seasonal">
+                        <label class="form-check-label" for="seasonal">Seasonal</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Employment Eligibility Section -->
+            <h5 class="bg-light p-2 text-center border">EMPLOYMENT ELIGIBILITY</h5>
+
+            <div class="row mb-1">
+                <label class="col-sm-8 col-form-label">Are you legally eligible to work in the U.S.?</label>
+                <div class="col-sm-4">
+                    <div class="form-check form-check-inline ">
+                        <input class="form-check-input" type="checkbox" name="workEligibility" id="yesEligibility" value="Yes">
+                        <label class="form-check-label" for="yesEligibility">Yes</label>
+                    </div>
+                        <input class="form-check-input" type="checkbox" name="workEligibility" id="noEligibility" value="No">
+                        <label class="form-check-label" for="noEligibility">No</label>
+                    </div>
+                </div>
+                <div class="row mb-1">
+                    <label class="col-sm-8 col-form-labe mt-4">Have you Ever worked for this emoloyer</label>
+                    <div class="col-sm-4">
+                        <div class="form-check form-check-inline mt-4">
+                            <input class="form-check-input" type="checkbox" name="workEligibility" id="yesEligibility" value="Yes">
+                            <label class="form-check-label" for="yesEligibility">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="workEligibility" id="noEligibility" value="No">
+                            <label class="form-check-label" for="noEligibility">No</label>
+                        </div><div class="form-check form-check-inline">
+                        </div>
+                    </div>
+                   
+                    <div class="row mt-3">
+                        <div class="col-md-6">if yes, write the strat and end dates:</div> 
+                            <div class="col-6 border-bottom border-0 rounded-0">
+
+                            </div>
+                    
+                    </div>
+                    <div class="row mb-1">
+                        <label class="col-sm-6 col-form-labe mt-4">have you ever been convicted of a felony</label>
+                        <div class="col-sm-6">
+                            <div class="form-check form-check-inline mt-4">
+                                <input class="form-check-input" type="checkbox" name="workEligibility" id="yesEligibility" value="Yes">
+                                <label class="form-check-label" for="yesEligibility">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="workEligibility" id="noEligibility" value="No">
+                                <label class="form-check-label" for="noEligibility">No</label>
+                            </div><div class="form-check form-check-inline">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-sm-6">if yes, write the start abd end dates:</div> 
+                                <div class="col-sm-6 border-bottom border-0 rounded-0">
+    
+                                </div>
+                        
+                        </div>
+                    
+
+            </div>
+
+            <!-- Additional questions like felony and previous employment go here similarly -->
+
+            <!-- Education Section -->
+            <h5 class="bg-light p-2 text-center border">EDUCATION</h5>
+
+            <div class="row mb-3">
+                <label for="highSchool" class="col-sm-3 col-form-label">High School:</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="highSchool">
+                </div>
+                <label for="highSchoolCity" class="col-sm-2 col-form-label">City/State:</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="highSchoolCity">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="college" class="col-sm-2 col-form-label">TO:</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                </div>
+                <label for="collegeCity" class="col-sm-2 col-form-label">FROM:</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="collegeCity">
+                </div>
+            </div>  
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="graduate">GRADUATE?</label>
+                    <input type="checkbox" id="graduate-yes" name="graduate" value="yes">
+                    <label for="graduate-yes">YES</label>
+                    <input type="checkbox" id="graduate-no" name="graduate" value="no">
+                    <label for="graduate-no">NO</label>
+                </div>
+                <div class="col-sm-6 ">
+                    <label for="degree">DEGREE:</label>
+                    <input class="border-bottom border-0 rounded-0" type="text" id="degree" name="degree">
+                </div>
+            </div>
+            
+            
+            <div class="row mb-3">
+                <label for="college" class="col-sm-2 col-form-label">COLLEGE</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                </div>
+                <label for="collegeCity" class="col-sm-2 col-form-label">City/State:</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="collegeCity">
+                </div>
+            </div>
+            <div class="row mb-3">
+            <label for="college" class="col-sm-2 col-form-label">TO:</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+            </div>
+            <label for="collegeCity" class="col-sm-2 col-form-label">FROM:</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control  border-bottom border-0 rounded-0" id="collegeCity">
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="graduate">GRADUATE?</label>
+                    <input type="checkbox" id="graduate-yes" name="graduate" value="yes">
+                    <label for="graduate-yes">YES</label>
+                    <input type="checkbox" id="graduate-no" name="graduate" value="no">
+                    <label for="graduate-no">NO</label>
+                </div>
+                <div class="col-sm-6 ">
+                    <label for="degree">DEGREE:</label>
+                    <input class="border-bottom border-0 rounded-0" type="text" id="degree" name="degree">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="otherEducation" class="col-sm-2 col-form-label">Other :</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="otherEducation">
+                </div>
+                <label for="otherCity" class="col-sm-2 col-form-label">City/State:</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control border-bottom border-0 rounded-0" id="otherCity">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="college" class="col-sm-2 col-form-label">from:</label>
+                <div class="col-sm-5">
+                    <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                </div>
+                <label for="collegeCity" class="col-sm-2 col-form-label">to:</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control  border-bottom border-0 rounded-0" id="collegeCity">
+                </div>
+                <div class="row mt-3">
+                    <div class="col-sm-4">DEGREE/CERTIFICATE</div> 
+                        <div class="col-sm-8 border-bottom border-0 rounded-0">
+
+                        </div>
+                
+                </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="otherEducation" class="col-sm-2 col-form-label">Other :</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control border-bottom border-0 rounded-0" id="otherEducation">
+                    </div>
+                    <label for="otherCity" class="col-sm-2 col-form-label">City/State:</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control border-bottom border-0 rounded-0" id="otherCity">
+                    </div>
+                    <div class="row mb-3">
+                        <label for="college" class="col-sm-2 col-form-label">TO:</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                        </div>
+                        <label for="collegeCity" class="col-sm-2 col-form-label">FROM:</label>
+                        <div class="col-sm-3">
+                            <input type="text" class="form-control  border-bottom border-0 rounded-0" id="collegeCity">
+                        </div>
+                        </div>
+                        
+                        <div class="row p-3">
+                            <div class="col-sm-4">DEGREE/CERTIFICATE</div> 
+                                <div class="col-sm-8 border-bottom border-0 rounded-0">
+
+                                </div>
+                            </div>
+                        </div>
+
+                            <div class="row mb-3">
+                                <div class="col-lg-12 bg-light text-center border">
+                                    <h5 class="p-2 ">PREVIOUS EMLOYMENTS</h5>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <label for="fullname" class="col-sm-2 col-form-label">employer:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control border-bottom border-0 rounded-0  " id="fullname">
+                                    <div class="d-flex justify-content-between display">
+                                        <small>compant/individual</small>
+                
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="email" class="col-sm-2 col-form-label">E-mail:</label>
+                                    <div class="col-sm-6">
+                                        <input type="email" class="form-control  border-bottom border-0 rounded-0" id="address" id="email ">
+                                    </div>
+                                    <label for="phone" class="col-sm-1 col-form-label">Phone:</label>
+                                    <div class="col-sm-3">
+                                        <input type="tel" class="form-control  border-bottom border-0 rounded-0" id="phone">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="address" class="col-sm-1 col-form-label">Address:</label>
+                                    <div class="col-sm-11">
+                                        <input type="text" class="form-control border-bottom border-0 rounded-0" id="address" placeholder="">
+                                        <div class="d-flex justify-content-between display">
+                                            <small>street address</small>
+                                            <small class="align-items-middle">apt/suite</small>
+                                            <small></small>
+                                        </div>
+                                        <div row class="mb-3">
+                                            <div col--md-11>
+                                                <input type="text" class="form-control border-bottom border-0 rounded-0" id="address" placeholder="">
+                                                <div class="d-flex justify-content-between display">
+                                                    <small>city</small>
+                                                    <small>state</small>
+                                                    <small>zip cord</small>
+                                                    
+                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+
+                                <div class="form-row d-flex align-items-center">
+                                    <label for="startingPay" class=" col-3 col-form-label me-2">STARTING PAY:</label>
+                                    
+                                    <div class="  input-group me-2">
+                                        <div class=" col-2 input-group-prepend">
+                                            <span class="input-group-text">$</span>
+                                        </div>
+                                        <input type="text" class="form-control" id="startingPay" name="startingPay">
+                                    </div>
+                                
+                                    <div class="form-check-inline">
+                                        <input type="radio" name="payType" value="hour" class="me-1"> HOUR
+                                    </div>
+                                    
+                                    <div class="form-check-inline ms-2">
+                                        <input type="radio" name="payType" value="salary" class="me-1"> SALARY
+                                    </div>
+                                    <div class="form-row d-flex align-items-center">
+                                        <label for="startingPay" class=" col-3 col-form-label me-2">STARTING PAY:</label>
+                                        
+                                        <div class="  input-group me-2">
+                                            <div class=" col-2 input-group-prepend">
+                                                <span class="input-group-text">$</span>
+                                            </div>
+                                            <input type="text" class="form-control" id="startingPay" name="startingPay">
+                                        </div>
+                                    
+                                        <div class="form-check-inline">
+                                            <input type="radio" name="payType" value="hour" class="me-1"> HOUR
+                                        </div>
+                                        
+                                        <div class="form-check-inline ms-2">
+                                            <input type="radio" name="payType" value="salary" class="me-1"> SALARY
+                                        </div>
+                                    </div>
+                                </div>
+                                <h5 class="bg-ligh p-2  border text-center" >REFERENCES<BR>(PROFESSIONAL ONLY)</h5>
+                                <div class="row mb-3">
+                                    <label for="college" class="col-sm-2 col-form-label">Full Name:</label>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                                        <div class="d-flex justify-content-between display">
+                                            <small>First</small>
+                                            <small>Last</small>
+                                        </div>
+                                    </div>
+                                    <label for="collegeCity" class="col-sm-2 col-form-label">RELATIONSHIP:</label>
+                                    <div class="col-sm-3">
+                                        <input type="text" class="form-control  border-bottom border-0 rounded-0" id="collegeCity">
+                                    </div>
+                                    </div>
+                                    <label for="college" class="col-sm-2 col-form-label">COMPANY:</label>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                                    </div>
+                                    <label for="collegeCity" class="col-sm-2 col-form-label">TITLE:</label>
+                                    <div class="col-sm-3">
+                                        <input type="text" class="form-control  border-bottom border-0 rounded-0" id="collegeCity">
+                                    </div>
+                                    </div>
+                                    <label for="college" class="col-sm-2 col-form-label">E-MAIL:</label>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                                    </div>
+                                    <label for="collegeCity" class="col-sm-2 col-form-label">PHONE:</label>
+                                    <div class="col-sm-3">
+                                        <input type="text" class="form-control  border-bottom border-0 rounded-0" id="collegeCity">
+                                    </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <label for="college" class="col-sm-2 col-form-label">Full Name:</label>
+                                        <div class="col-sm-5">
+                                            <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                                            <div class="d-flex justify-content-between display">
+                                                <small>First</small>
+                                                <small>Last</small>
+                                            </div>
+                                        </div>
+                                        <label for="collegeCity" class="col-sm-2 col-form-label">RELATIONSHIP:</label>
+                                        <div class="col-sm-3">
+                                            <input type="text" class="form-control  border-bottom border-0 rounded-0" id="collegeCity">
+                                        </div>
+                                        </div>
+                                        <label for="college" class="col-sm-2 col-form-label">COMPANY:</label>
+                                        <div class="col-sm-5">
+                                            <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                                        </div>
+                                        <label for="collegeCity" class="col-sm-2 col-form-label">TITLE:</label>
+                                        <div class="col-sm-3">
+                                            <input type="text" class="form-control  border-bottom border-0 rounded-0" id="collegeCity">
+                                        </div>
+                                        </div>
+                                        <label for="college" class="col-sm-2 col-form-label">E-MAIL:</label>
+                                        <div class="col-sm-5">
+                                            <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                                        </div>
+                                        <label for="collegeCity" class="col-sm-2 col-form-label">PHONE:</label>
+                                        <div class="col-sm-3">
+                                            <input type="text" class="form-control  border-bottom border-0 rounded-0" id="collegeCity">
+                                        </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <label for="college" class="col-sm-2 col-form-label">Full Name:</label>
+                                            <div class="col-sm-5">
+                                                <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                                                <div class="d-flex justify-content-between display">
+                                                    <small>First</small>
+                                                    <small>Last</small>
+                                                </div>
+                                            </div>
+                                            <label for="collegeCity" class="col-sm-2 col-form-label">RELATIONSHIP:</label>
+                                            <div class="col-sm-3">
+                                                <input type="text" class="form-control  border-bottom border-0 rounded-0" id="collegeCity">
+                                            </div>
+                                            </div>
+                                            <label for="college" class="col-sm-2 col-form-label">COMPANY:</label>
+                                            <div class="col-sm-5">
+                                                <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                                            </div>
+                                            <label for="collegeCity" class="col-sm-2 col-form-label">TITLE:</label>
+                                            <div class="col-sm-3">
+                                                <input type="text" class="form-control  border-bottom border-0 rounded-0" id="collegeCity">
+                                            </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label for="college" class="col-sm-2 col-form-label">E-MAIL:</label>
+                                                <div class="col-sm-5">
+                                                    <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                                                </div>
+                                                <label for="collegeCity" class="col-sm-2 col-form-label">PHONE:</label>
+                                                <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="collegeCity">
+                                                </div>
+
+                                                <h5 class="bg-ligh p-2  border text-center" >MILITARY SERVICE</h5>            
+                                        
+                                         <div class="row mb-1">
+                        <label class="col-sm-6 col-form-labe mt-4">ARE YOU A VETERAN?</label>
+                        <div class="col-sm-6">
+                            <div class="form-check form-check-inline mt-4">
+                                <input class="form-check-input" type="checkbox" name="workEligibility" id="yesEligibility" value="Yes">
+                                <label class="form-check-label" for="yesEligibility">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" name="workEligibility" id="noEligibility" value="No">
+                                <label class="form-check-label" for="noEligibility">No</label>
+                            </div><div class="form-check form-check-inline">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="college" class="col-sm-2 col-form-label">BRANCH:</label>
+                            <div class="col-sm-5">
+                                <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                            </div>
+                            <label for="collegeCity" class="col-sm-3 col-form-label">RANK AT DISCHARGE:</label>
+                            <div class="col-sm-2">
+                                <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="collegeCity">
+                            </div>
+                            <div class="row mb-3">
+                                <label for="college" class="col-sm-2 col-form-label">FORM:</label>
+                                <div class="col-sm-5">
+                                    <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                                </div>
+                                <label for="collegeCity" class="col-sm-2 col-form-label">TO:</label>
+                                <div class="col-sm-3">
+                                    <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="collegeCity">
+                                </div>
+                                <label for="college" class="col-sm-2 col-form-label">TYPE OF DISHARGE:</label>
+                                <div class="col-sm-5">
+                                    <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="college" class="col-sm-4 col-form-label">IF NOT HNORABLE, PLEASE EXPLAIN:</label>
+                                <div class="col-sm-5">
+                                    <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                                </div>
+                                <h5 class="bg-ligh p-2  border text-center" >BACKGROUND CHECK CONSENT</h5>
+                                <div class="row mb-1">
+                                    <label class="col-sm-7 col-form-labe mt-4">IS ASKED, ARE YOU WILLING TO CONSENT TO A BACKGROUND CHEAK?</label>
+                                    <div class="col-sm-4">
+                                        <div class="form-check form-check-inline mt-4">
+                                            <input class="form-check-input" type="checkbox" name="workEligibility" id="yesEligibility" value="Yes">
+                                            <label class="form-check-label" for="yesEligibility">Yes</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" name="workEligibility" id="noEligibility" value="No">
+                                            <label class="form-check-label" for="noEligibility">No</label>
+                                        </div><div class="form-check form-check-inline">
+                                        </div>
+                                        </div>
+                                        <h5 class="bg-ligh p-2  border text-center" >DISCLAMIER</h5>
+                                        <h5>Applicant understands that this is an Equal Opportunity Employer and committed to excellence
+                                            through diversity. In order to ensure this application is acceptable, please print or type with the
+                                            application being fully completed in order for it to be considered.
+                                            Please complete each section EVEN IF you decide to attach a resume.
+                                            I, the Applicant, certify that my answers are true and honest to the best of my knowledge. If this
+                                            application leads to my eventual employment, I understand that any false or misleading
+                                            information in my application or interview may result in my employment being terminated.</h5>
+                                            <div class="row mb-3">
+                                                <label for="college" class="col-sm-2 col-form-label">SIGNATURE:</label>
+                                                <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                                                </div>
+                                                <label for="collegeCity" class="col-sm-2 col-form-label">DATE</label>:</label>
+                                                <div class="col-sm-3">
+                                                    <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="collegeCity">
+                                                </div>
+                                                <label for="college" class="col-sm-2 col-form-label">PRINT NAME:</label>
+                                                <div class="col-sm-5">
+                                                    <input type="text" class="form-control form-control border-bottom border-0 rounded-0" id="college">
+                                                </div>
+                                    
+                                        
+
+
+
+
+            
+
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
