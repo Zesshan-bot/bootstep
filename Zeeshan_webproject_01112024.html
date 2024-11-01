@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World of Gaming</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles */
+    body {
+        background: linear-gradient(90deg, #78c2ff, #d896ff);
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      background: linear-gradient(90deg, #6bf3e3, #9259ee);
+    }
+    .background-img {
+    height: 75vh; /* Full viewport height */
+    background-image: url('./images/purple-gaming.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* General card styling */
+.overlay-card {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+    .navbar-nav .nav-link {
+      color: #fff !important;
+      font-weight: bold;
+    }
+    .gaming-title {
+      font-size: 3rem;
+      text-align: center;
+      margin-top: 30px;
+      color: #fff;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .card-title {
+     background: linear-gradient(90deg, #24d1dd, #603f9b, #ad31c2);
+      color: #ffffff;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+    }
+    .card-content {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">World of Gaming</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Popularity</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Effect</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Title -->
+  <div class="row align-items-center justify-content-center">
+    <div class="background-img col-12 d-flex align-items-center justify-content-center">
+
+     
+    </div>
+
+  </div>
+  <div class="gaming-title border">
+    World <br> of Gaming
+  </div>
+
+  <!-- Content Section -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card mb-4 border ">
+          <div class="card-title border">History of Games</div>
+          <div class="card-body">
+            <p class="card-content width:100px; height:100px;">In 1952, British professor A.S. Douglas created a game called OXO, now known as tic-tac-toe, as part of his doctoral dissertation. In 1958, the first game for entertainment was created.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card mb-4 border">
+          <div class="card-title border">What is Gaming</div>
+          <div class="card-body">
+            <p class="card-content width:100px; height:100px;">The word gaming originated in the 15th century to refer to gambling in dice or card games. Gaming was used to refer to gambling until the late 1900s, when it was applied to playing recreational board games and pen-and-paper role-playing games.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card  border ">
+          <div class="card-title border">Types of Games</div>
+          <div class="card-body">
+            <p class="card-content width:100px; height:100px;">There are 10 main video game genres, each with multiple subgenres and hybrids. The top 3 game genres are action, adventure, and RPG (role-play games).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
