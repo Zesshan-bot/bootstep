@@ -1109,6 +1109,7 @@ section,
   transition: all ease-in-out 0.3s;
   height: 100%;
   background: linear-gradient(to right, #8d52bd, #4cb9d4);
+  cursor: pointer;
   
 
 }
@@ -1290,7 +1291,7 @@ section,
 .portfolio .portfolio-item {
   position: relative;
   overflow: hidden;
- 
+ cursor: pointer;
 
 }
  
