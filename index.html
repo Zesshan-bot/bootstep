@@ -210,187 +210,118 @@
 
     </section><!-- /Call To Action Section -->
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title -->
-      <div class="container section-title " data-aos="fade-up">
-        <span>Games</span>
-        <h2>Games</h2>
-        <p>information about popular Games</p>
-      </div><!-- End Section Title -->
-      
-      <div class="container">
-        <div class="row gy-4 isotope-container d-flex" data-aos="fade-up" data-aos-delay="200">
-      
-          <!-- GOD of WAR -->
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-            <img src="assets/img/portfolio/god.jpg" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#godOfWarModal">
-            <div class="portfolio-info">
-              <h4>GOD of WAR</h4>
-              <p>More Details</p>
-            </div>
+  ''''''''''
+          
+          <!-- Portfolio Section -->
+          <section id="portfolio" class="portfolio section">
+              <div class="container section-title" data-aos="fade-up">
+                  <span>Games</span>
+                  <h2>Games</h2>
+                  <p>Information about popular games</p>
+              </div>
+              <div class="container">
+                  <div class="row gy-4 isotope-container d-flex">
+                      <!-- GOD of WAR -->
+                      <div class="col-lg-4 col-md-6 portfolio-item">
+                          <img src="assets/img/portfolio/god.jpg" class="img-fluid" alt="God of War" 
+                               data-bs-toggle="modal" data-bs-target="#gameModal" data-game-id="godOfWar">
+                          <div class="portfolio-info">
+                              <h4>GOD of WAR</h4>
+                              <p>More Details</p>
+                          </div>
+                      </div>
+                      <!-- Call of Duty -->
+                      <div class="col-lg-4 col-md-6 portfolio-item">
+                          <img src="assets/img/portfolio/call.png" class="img-fluid" alt="Call of Duty" 
+                               data-bs-toggle="modal" data-bs-target="#gameModal" data-game-id="callOfDuty">
+                          <div class="portfolio-info">
+                              <h4>Call of Duty</h4>
+                              <p>More Details</p>
+                          </div>
+                      </div>
+                      <!-- Minecraft -->
+                      <div class="col-lg-4 col-md-6 portfolio-item">
+                          <img src="assets/img/portfolio/min.jpg" class="img-fluid" alt="Minecraft" 
+                               data-bs-toggle="modal" data-bs-target="#gameModal" data-game-id="minecraft">
+                          <div class="portfolio-info">
+                              <h4>Minecraft</h4>
+                              <p>More Details</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          
+          <!-- Modal Template -->
+          <div class="modal fade" id="gameModal" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="gameModalLabel">Game Title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <p>Loading...</p>
+                      </div>
+                  </div>
+              </div>
           </div>
-      
-          <!-- Call of Duty -->
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-            <img src="assets/img/portfolio/call.png" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#callOfDutyModal">
-            <div class="portfolio-info">
-              <h4>Call of Duty</h4>
-              <p>More Details</p>
-            </div>
-          </div>
-      
-          <!-- Lords Mobile -->
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-            <img src="assets/img/portfolio/lords-mobile-9t3d7.png" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#lordsMobileModal">
-            <div class="portfolio-info">
-              <h4>Lords Mobile</h4>
-              <p>More Details</p>
-            </div>
-          </div>
-      
-          <!-- Minecraft -->
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-            <img src="assets/img/portfolio/min.jpg" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#minecraftModal">
-            <div class="portfolio-info">
-              <h4>Minecraft</h4>
-              <p>More Details</p>
-            </div>
-          </div>
-      
-          <!-- Pubg -->
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-            <img src="assets/img/portfolio/pubg.jpg" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#pubgModal">
-            <div class="portfolio-info">
-              <h4>Pubg</h4>
-              <p>More Details</p>
-            </div>
-          </div>
-      
-          <!-- Raid Shadow Legend -->
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-            <img src="assets/img/portfolio/raid.webp" class="img-fluid" alt="" data-bs-toggle="modal" data-bs-target="#raidShadowLegendModal">
-            <div class="portfolio-info">
-              <h4>Raid Shadow Legend</h4>
-              <p>More Details</p>
-            </div>
-          </div>
-      
-        </div><!-- End Portfolio Container -->
-      </div>
-      <!-- End Portfolio Container -->
-      </div>
-
-<!-- GOD of WAR Modal -->
-<div class="modal fade" id="godOfWarModal" tabindex="-1" aria-labelledby="godOfWarModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="godOfWarModalLabel">GOD of WAR</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <img src="assets/img/portfolio/god-of-war2.jpg" class="img-fluid mb-3" alt="GOD of WAR">
-        <p>
-          God of War is an action-adventure game series that follows Kratos, a powerful warrior, as he battles gods, monsters, and mythical beings from different mythologies.
-           The game combines intense combat with an emotional story about family, loss, and redemption. In the latest games, Kratos journeys with his son, Atreus,
-            in a world inspired by Norse mythology.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Call of Duty Modal -->
-<div class="modal fade" id="callOfDutyModal" tabindex="-1" aria-labelledby="callOfDutyModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="callOfDutyModalLabel">Call of Duty</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <img src="assets/img/portfolio/callofduty.jpg" class="img-fluid mb-3" alt="Call of Duty">
-        <p>
-          Call of Duty: Mobile is a popular mobile game that brings the action of the classic Call of Duty series to phones and tablets.
-           It's a first-person shooter where players engage in intense battles, either in teams or solo, across different modes and maps.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Lords Mobile Modal -->
-<div class="modal fade" id="lordsMobileModal" tabindex="-1" aria-labelledby="lordsMobileModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="lordsMobileModalLabel">Lords Mobile</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <img src="assets/img/portfolio/lords_mobile2.jpg" class="img-fluid mb-3" alt="Lords Mobile">
-        <p>Lords Mobile is a mobile strategy game where players build their own kingdoms, train armies, and battle against other players.
-           The goal is to grow your empire by gathering resources, upgrading buildings, and attacking other players or monsters.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Minecraft Modal -->
-<div class="modal fade" id="minecraftModal" tabindex="-1" aria-labelledby="minecraftModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="minecraftModalLabel">Minecraft</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <img src="assets/img/portfolio/mine_2.jpg" class="img-fluid mb-3" alt="Minecraft">
-        <p>Minecraft is a popular sandbox video game where players can explore, build, and survive in a blocky, 3D world. Players can create almost
-           anything by mining resources and crafting tools, from simple houses to complex structures. The game has no set goals, allowing players to be creative and explore at their own pace.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Pubg Modal -->
-<div class="modal fade" id="pubgModal" tabindex="-1" aria-labelledby="pubgModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="pubgModalLabel">Pubg</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <img src="assets/img/portfolio/pubg-2.jpg" class="img-fluid mb-3" alt="Pubg">
-        <p>PUBG Mobile is a popular online multiplayer battle royale game where players compete to be the last person or team standing. The game starts with up
-           to 100 players parachuting onto a large map, where they search for weapons, supplies, and gear to survive while battling other players. As the match goes on, a shrinking
-            "safe zone" forces players into a smaller area,
-           increasing chances of encounters. PUBG Mobile can be played solo, in pairs, or in teams, and it's known for its realistic graphics, strategic gameplay, and variety of maps.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Raid Shadow Legend Modal -->
-<div class="modal fade" id="raidShadowLegendModal" tabindex="-1" aria-labelledby="raidShadowLegendModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="raidShadowLegendModalLabel">Raid Shadow Legend</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <img src="assets/img/portfolio/raid_2.jpg" class="img-fluid mb-3" alt="Raid Shadow Legend">
-        <p>Raid: Shadow Legends is a fantasy-themed, turn-based role-playing game (RPG) where players collect
-           and upgrade heroes to battle through dungeons, bosses, and other players.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
+          
+          <!-- Bootstrap JS -->
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+          <!-- AOS JS (Optional) -->
+          <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+          <!-- Custom Script -->
+          <script src="assets/js/main.js"></script>
+          
+          <script>
+              // Initialize AOS (if used)
+              AOS.init();
+       
+          const gameData = {
+            godOfWar: {
+                title: "God of War",
+                image: "assets/img/portfolio/god-of-war2.jpg",
+                description: "God of War is an action-adventure game series that follows Kratos..."
+            },
+            callOfDuty: {
+                title: "Call of Duty",
+                image: "assets/img/portfolio/callofduty.jpg",
+                description: "Call of Duty is a first-person shooter game that delivers intense battles..."
+            },
+            minecraft: {
+                title: "Minecraft",
+                image: "assets/img/portfolio/mine_2.jpg",
+                description: "Minecraft is a sandbox video game where players can explore, build, and survive in a blocky world..."
+            }
+        };
+        
+        // Function to load game data into the modal
+        function loadGameData(gameId) {
+            const game = gameData[gameId];
+            if (game) {
+                const modalTitle = document.getElementById('gameModalLabel');
+                const modalBody = document.querySelector('#gameModal .modal-body');
+                modalTitle.textContent = game.title;
+                modalBody.innerHTML = `
+                    <img src="${game.image}" class="img-fluid mb-3" alt="${game.title}">
+                    <p>${game.description}</p>
+                `;
+            } else {
+                console.error("Game data not found for ID:", gameId);
+            }
+        }
+        
+        // Attach event listeners to modal triggers
+        document.querySelectorAll('[data-bs-toggle="modal"]').forEach(trigger => {
+            trigger.addEventListener('click', function () {
+                const gameId = this.getAttribute('data-game-id');
+                loadGameData(gameId);
+            });
+        });
+      </script>
+    
     <!-- Pricing Section -->
     <section id="pricing" class="pricing section">
 
@@ -453,6 +384,9 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/gameData.js"></script>
 
 </body>
 
